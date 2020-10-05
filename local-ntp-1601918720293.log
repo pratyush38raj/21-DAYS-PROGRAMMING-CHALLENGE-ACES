@@ -1,0 +1,19 @@
+function Student(name,rollno,branch,div){
+    this.name=name;
+    this.rollno=rollno;
+    this.branch=branch;
+    this.div=div;
+};
+undefined
+var student1=new Student('Pratyush',1004,'Comp','A');
+undefined
+student1
+Student {name: "Pratyush", rollno: 1004, branch: "Comp", div: "A"}
+var student2=new Student('Piyush',04,'CS','J');
+undefined
+student2
+Student {name: "Piyush", rollno: 4, branch: "CS", div: "J"}
+Student.prototype.Emaildomain='@dypcoe.microsoft.com';
+"@dypcoe.microsoft.com"
+student1
+Student {name: "Pratyush", rollno: 1004, branch: "Comp", div: "A"}branch: "Comp"div: "A"name: "Pratyush"rollno: 1004__proto__: Emaildomain: "@dypcoe.microsoft.com"constructor: ƒ Student(name,rollno,branch,div)arguments: nullcaller: nulllength: 4name: "Student"prototype: {Emaildomain: "@dypcoe.microsoft.com", constructor: ƒ}__proto__: ƒ ()[[FunctionLocation]]: VM1461:1[[Scopes]]: Scopes[2]__proto__: Object
