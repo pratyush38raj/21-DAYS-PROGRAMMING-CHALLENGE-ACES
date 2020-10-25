@@ -1,0 +1,38 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+<title>  
+The getAttribute Method  
+</title>  
+</head>  
+<body>  
+<h1>  
+Welcome to the jvascript tut by piyush  
+</h1>  
+  
+<h2>  
+Example of the getAttribute() Method  
+</h2>  
+  
+<div id = "div1" style = "background-color: yellow; font-size: 25px; color: red; border: 2px solid red;">  
+This is the div element.  
+</div>  
+<br>  
+<a href = "http://www.jstutpsh.com/" id = "link"> jstutpsh.com </a>  
+<br><br>  
+<button onclick = "fun()" id = "btn">  
+Click me!  
+</button>  
+<p id = "p"></p>  
+<p id = "p1"></p>  
+<script>  
+function fun() {  
+var val = document.getElementById("btn").getAttribute("onclick");  
+document.getElementById("p").innerHTML = val;  
+var val1 = document.getElementById("link").getAttribute("href");  
+document.getElementById("p1").innerHTML = val1;  
+}  
+</script>  
+</body>  
+  
+</html>  
